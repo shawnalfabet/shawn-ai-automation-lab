@@ -1,36 +1,37 @@
-# Shawn AI Automation Lab
+# Alfabet Playwright Testing Lab
 
-Public lab for useful AI automation workflows, Playwright E2E patterns, market-research artifacts, and Hermes agent recipes.
+Public lab for **Alfabet-focused Playwright E2E testing patterns**.
 
-This repo is intentionally lightweight: it collects small, practical artifacts that can be reused across projects without touching production codebases.
+This repository is intentionally public-safe. It documents reusable testing strategies, examples, templates, and workflows without exposing proprietary source code, private selectors, credentials, traces, screenshots, or environment details.
 
-## What goes here
+## Scope
 
-- **Playwright automation patterns** — stacked PR workflows, test-batch prompts, E2E conventions.
-- **Hermes agent recipes** — recurring jobs, verification checklists, repo-safe automation notes.
-- **Market research briefs** — public summaries and structured notes from vertical AI-agent research.
-- **Reusable templates** — PR bodies, test plans, agent prompts, and QA checklists.
+This repo is only for:
 
-## Contribution philosophy
+- Alfabet Playwright E2E testing patterns
+- mobile and desktop test-plan templates
+- selector and flake-prevention guidance
+- stacked PR workflows for test batches
+- public-safe example specs
 
-The goal is useful public work, not noisy activity. Each commit should add one of:
+## Not in scope
 
-- a reusable workflow;
-- a tested script or checklist;
-- a cleaned-up research note;
-- a small template that saves time later.
+- generic AI market research
+- revenue recovery notes
+- private ParleyIt/Alfabet source code
+- real internal URLs, credentials, traces, screenshots, videos, or auth state
+- noisy contribution farming
 
 ## Repository map
 
-```text
-playwright/       Playwright and E2E automation patterns
-hermes/           Hermes Agent recipes and recurring-job notes
-research/         Public market-research notes
-templates/        Reusable markdown templates
-```
+| Area | Purpose |
+|---|---|
+| `alfabet/` | Public-safe Alfabet testing strategy notes |
+| `playwright/` | Playwright workflows, examples, selector guidance |
+| `templates/` | PR bodies and E2E test-plan templates |
 
 ## Current focus
 
-- AI-assisted Playwright E2E batches
-- Stacked PR workflows with minimal production impact
-- AI revenue recovery / lead reactivation market research
+1. Document Alfabet Playwright testing strategy.
+2. Add small public-safe Playwright example specs.
+3. Keep daily contributions useful, scoped, and reviewable.

@@ -1,29 +1,30 @@
-# Repo contribution rules
+# Contribution rules
 
-Use this repository for small, real, reusable artifacts.
+This repository is for public-safe **Alfabet Playwright testing** artifacts.
 
 ## Good contributions
 
-- Documented automation workflows
-- Practical scripts with clear usage
-- Research notes with source links
-- Templates that can be reused
-- Lessons learned from real debugging or E2E work
+- Alfabet E2E testing strategies
+- Playwright example specs with placeholder URLs/selectors
+- selector and flake-prevention checklists
+- stacked PR workflows for Playwright batches
+- PR/test-plan templates
 
 ## Avoid
 
-- Empty commits
-- Backdated activity
-- Generated noise
-- Secrets, credentials, auth state, traces, screenshots with private data
-- Client-specific proprietary details
+- empty commits
+- backdated activity
+- generated noise
+- generic non-testing research
+- credentials, `.env` files, auth state, traces, screenshots, videos
+- proprietary source code or private implementation details
 
 ## Commit style
 
-Use concise conventional-style messages:
+Use concise messages:
 
 ```text
-docs: add playwright stacked pr workflow
-template: add e2e batch pr body
-research: summarize ai revenue recovery market
+docs: add Alfabet Playwright testing strategy
+test: add Alfabet mobile navigation example
+docs: add Alfabet selector guidelines
 ```
