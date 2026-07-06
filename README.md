@@ -1,18 +1,37 @@
 # Alfabet Playwright Testing Lab
 
-Public lab for **Alfabet-focused Playwright E2E testing patterns**.
+Public R&D lab for **deep Alfabet-style Playwright E2E testing**.
 
-This repository is intentionally public-safe. It documents reusable testing strategies, examples, templates, and workflows without exposing proprietary source code, private selectors, credentials, traces, screenshots, or environment details.
+This is not a shallow smoke-test repo. It is a testing architecture lab for betting/trading-style interfaces: state changes, live markets, navigation complexity, betslip safety, observability, flake forensics, and agent-assisted test design.
 
-## Scope
+## Core idea
 
-This repo is only for:
+```text
+creative test design → public-safe experiment → normal Playwright code → deterministic CI signal
+```
 
-- Alfabet Playwright E2E testing patterns
-- mobile and desktop test-plan templates
-- selector and flake-prevention guidance
-- stacked PR workflows for test batches
-- public-safe example specs
+The repo is intentionally public-safe. It documents reusable strategies, examples, templates, and workflows without exposing proprietary source code, private selectors, credentials, traces, screenshots, or environment details.
+
+## Start here
+
+| Document | Purpose |
+|---|---|
+| [`alfabet/testing-lab-manifesto.md`](alfabet/testing-lab-manifesto.md) | Why this lab exists and what “deep testing” means |
+| [`alfabet/deep-testing-roadmap.md`](alfabet/deep-testing-roadmap.md) | Roadmap for advanced Alfabet Playwright experiments |
+| [`alfabet/testing-strategy.md`](alfabet/testing-strategy.md) | Practical testing strategy foundation |
+| [`playwright/stacked-pr-workflow.md`](playwright/stacked-pr-workflow.md) | Stacked PR workflow for test batches |
+| [`templates/playwright-agent-batch-pr.md`](templates/playwright-agent-batch-pr.md) | PR template for generated test batches |
+
+## Workstreams
+
+- State-model testing for market and betslip state
+- Synthetic fixture worlds for deterministic test data
+- Property-based UI action exploration
+- Playwright observability and failure evidence
+- Flake forensics and triage loops
+- Risk-based coverage for money-impacting UI
+- Agent-assisted planner/generator/healer workflows
+- Public-safe example specs for Alfabet-style flows
 
 ## Not in scope
 
@@ -21,17 +40,3 @@ This repo is only for:
 - private ParleyIt/Alfabet source code
 - real internal URLs, credentials, traces, screenshots, videos, or auth state
 - noisy contribution farming
-
-## Repository map
-
-| Area | Purpose |
-|---|---|
-| `alfabet/` | Public-safe Alfabet testing strategy notes |
-| `playwright/` | Playwright workflows, examples, selector guidance |
-| `templates/` | PR bodies and E2E test-plan templates |
-
-## Current focus
-
-1. Document Alfabet Playwright testing strategy.
-2. Add small public-safe Playwright example specs.
-3. Keep daily contributions useful, scoped, and reviewable.
