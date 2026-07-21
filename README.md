@@ -38,6 +38,7 @@ The repository intentionally documents reusable strategies, templates, and harne
 | Postmortems | [`templates/failure-postmortem.md`](templates/failure-postmortem.md) | Published | Structures E2E failure analysis around root cause, signal, and prevention. |
 | Risk coverage | [`playwright/risk-based-coverage.md`](playwright/risk-based-coverage.md) | Published | Prioritizes money-impacting flows, stale data, blocked actions, latency, and responsive layout. |
 | API/UI correlation | [`playwright/api-ui-correlation.md`](playwright/api-ui-correlation.md) | Published | Correlates visible UI assertions with sanitized network observations without exposing private APIs. |
+| Latency resilience | [`playwright/latency-resilience.md`](playwright/latency-resilience.md) | Published | Models slow, pending, stale, retry, and navigation-during-latency behavior with deterministic Playwright evidence. |
 | PR workflow | [`playwright/stacked-pr-workflow.md`](playwright/stacked-pr-workflow.md) | Published | Documents a disciplined stacked-PR approach for Playwright automation batches. |
 | Batch template | [`templates/playwright-agent-batch-pr.md`](templates/playwright-agent-batch-pr.md) | Published | Gives a reviewable PR description format for agent-assisted test batches. |
 
