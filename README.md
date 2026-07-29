@@ -42,6 +42,7 @@ The repository intentionally documents reusable strategies, templates, and harne
 | Visual semantics | [`playwright/visual-semantics.md`](playwright/visual-semantics.md) | Published | Defines semantic visual assertions for status, actionability, responsive layout, and safe interpretation. |
 | Locator contracts | [`playwright/locator-contracts.md`](playwright/locator-contracts.md) | Published | Sets a public-safe locator strategy for semantic roles, scoped regions, and durable test ids. |
 | Actionability guardrails | [`playwright/actionability-guardrails.md`](playwright/actionability-guardrails.md) | Published | Defines how to prove enabled, disabled, pending, stale, and validation states are safe before money-impacting actions. |
+| Market state oracles | [`playwright/market-state-oracles.md`](playwright/market-state-oracles.md) | Published | Composes visible state, actionability, context, and sanitized evidence into reusable market-safety oracles. |
 | PR workflow | [`playwright/stacked-pr-workflow.md`](playwright/stacked-pr-workflow.md) | Published | Documents a disciplined stacked-PR approach for Playwright automation batches. |
 | Batch template | [`templates/playwright-agent-batch-pr.md`](templates/playwright-agent-batch-pr.md) | Published | Gives a reviewable PR description format for agent-assisted test batches. |
 
@@ -61,7 +62,7 @@ Use the [observability playbook](playwright/observability-playbook.md), [flake f
 
 ### If you are planning coverage
 
-Use the [risk-based coverage matrix](playwright/risk-based-coverage.md), [API/UI correlation strategy](playwright/api-ui-correlation.md), [visual semantics guide](playwright/visual-semantics.md), and [deep test charter template](templates/deep-test-charter.md) to connect each test to product risk, expected evidence, and maintenance cost.
+Use the [risk-based coverage matrix](playwright/risk-based-coverage.md), [API/UI correlation strategy](playwright/api-ui-correlation.md), [market state oracle strategy](playwright/market-state-oracles.md), [visual semantics guide](playwright/visual-semantics.md), and [deep test charter template](templates/deep-test-charter.md) to connect each test to product risk, expected evidence, and maintenance cost.
 
 ### If you are using agents
 
