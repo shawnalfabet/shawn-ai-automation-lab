@@ -44,6 +44,7 @@ The repository intentionally documents reusable strategies, templates, and harne
 | Actionability guardrails | [`playwright/actionability-guardrails.md`](playwright/actionability-guardrails.md) | Published | Defines how to prove enabled, disabled, pending, stale, and validation states are safe before money-impacting actions. |
 | Market state oracles | [`playwright/market-state-oracles.md`](playwright/market-state-oracles.md) | Published | Composes visible state, actionability, context, and sanitized evidence into reusable market-safety oracles. |
 | Temporal consistency | [`playwright/temporal-consistency.md`](playwright/temporal-consistency.md) | Published | Defines deterministic Playwright strategies for freshness windows, pending validation, expiry, retry, and recovery. |
+| Realtime stream resilience | [`playwright/realtime-stream-resilience.md`](playwright/realtime-stream-resilience.md) | Published | Models delayed, duplicate, out-of-order, disconnected, and resumed live-market updates with safe UI invariants. |
 | PR workflow | [`playwright/stacked-pr-workflow.md`](playwright/stacked-pr-workflow.md) | Published | Documents a disciplined stacked-PR approach for Playwright automation batches. |
 | Batch template | [`templates/playwright-agent-batch-pr.md`](templates/playwright-agent-batch-pr.md) | Published | Gives a reviewable PR description format for agent-assisted test batches. |
 
